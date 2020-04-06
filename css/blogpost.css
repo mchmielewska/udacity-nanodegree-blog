@@ -38,12 +38,12 @@
     font-family: 'Prata', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:#5E757A;
+    color:#415154;
 }
 
 .bio {
     font-size: 15px;
-    color:#5E757A;
+    color:#415154;
     text-align: justify;
     padding: 0 50px 50px 50px;
 }
@@ -53,7 +53,7 @@
     font-size: 15px;
     font-family: 'Prata', serif;
     letter-spacing: 2px;
-    color:#5E757A;
+    color:#415154;
 }
 
 .details {
@@ -68,7 +68,7 @@
     text-decoration: none;
     padding: 5px;
     text-align: center;
-    color: #5E757A;
+    color: #415154;
     font-family: 'Prata', serif;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -79,7 +79,7 @@
     font-size: 15px;
     font-family: 'Prata', serif;
     letter-spacing: 2px;
-    color:#5E757A;
+    color:#415154;
 }
 
 .social-sharing {
@@ -113,32 +113,32 @@
 
 .post-content h1 {
     font-size: 30px;
-    color:#5E757A;
+    color:#415154;
 }
 
 .post-content h2 {
     font-size: 24px;
-    color:#5E757A;
+    color:#415154;
 }
 
 .post-content h3 {
     font-size: 20px;
-    color:#5E757A;
+    color:#415154;
 }
 
 .post-content a {
     text-decoration: none;
-    color:#5E757A;
+    color:#415154;
     font-weight: bold;
 }
 
 .post-content a:hover {
     color: #FFFFFF;
-    background: #5E757A;
+    background: #415154;
 }
 
 .post-content a:visited {
-    color: #5E757A;
+    color: #415154;
     background: #999999;
 }
 
@@ -148,7 +148,7 @@
     font-size: 12px;
     margin: 20px 0;
     padding: 15px;
-    border-right: 2px solid #5E757A;
+    border-right: 2px solid #415154;
     background: #FFFFFF;
   }
 
