@@ -8,9 +8,7 @@ body, ul {
 }
 
 body {
-    background-image: url("../img/background.png");
-    background-repeat: repeat-x;
-    background-color: #FDFDFE;
+    background-color: #BAC6CB;
     font-size: 12px;
     font-family: 'Cutive Mono', monospace;
   }
