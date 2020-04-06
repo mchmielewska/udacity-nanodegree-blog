@@ -1,0 +1,97 @@
+.menu a {
+    background: white;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: #5E757A;
+    font-family: 'Prata', serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+.menu ul {
+    font-size: 12px;
+    letter-spacing: 5px;
+    list-style: none;
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    align-self: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+}
+
+.menu .logo {
+    grid-column-end: -1;
+    text-align: right;
+    align-self: center;
+    margin-right: 20px;
+}
+
+.menu .logo img {
+    max-width: 30%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .menu ul {
+        font-size: 12px;
+        letter-spacing: 5px;
+        list-style: none;
+        display: grid;
+        grid-gap: 10px;
+        padding: 10px;
+        align-self: center;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .menu .logo {
+        grid-column: 1 / -1;
+        text-align: center;
+        align-self: center;
+    }
+
+    
+    .menu .logo img {
+        max-height: 50px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .menu ul {
+        font-size: 12px;
+        letter-spacing: 5px;
+        list-style: none;
+        display: grid;
+        grid-gap: 10px;
+        padding: 10px;
+        align-self: center;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .menu .logo {
+        grid-column: 1 / -1;
+        text-align: center;
+        align-self: center;
+    }
+
+    
+    .menu .logo img {
+        max-height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu ul {
+        grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    }
+
+    .menu .logo {
+        grid-column: 1 / -1;
+        text-align: center;
+        align-self: center;
+    }
+
+    .menu .logo img {
+        max-height: 50px;
+    }
+}

@@ -1,0 +1,81 @@
+.contact-menu {
+    background-image: url(../img/cactus-contact.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.contact-menu h1 {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Prata', serif;
+    letter-spacing: 2px;
+}
+
+.contact-container input, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Cutive Mono', monospace;
+  }
+  
+.contact-container input[type=submit] {
+    font-family: 'Cutive Mono', monospace;
+    width: 100%;
+    text-align: center;
+    background-color: #C5CACF;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+.contact-container input[type=submit]:hover {
+    background-color: #FFFFFF;
+    color: #C5CACF
+}
+  
+.contact-container {
+    font-family: 'Cutive Mono', monospace;
+    max-width: 50%;
+    margin-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contact-container {
+        max-width: 75%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .contact-container {
+        max-width: 100%;
+    }
+
+    .contact-menu h1 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-container {
+        max-width: 100%;
+    }
+
+    .contact-menu h1 {
+        font-size: 20px;
+    }
+}

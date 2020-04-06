@@ -1,0 +1,18 @@
+html {
+    background: white;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, #899DA6, transparent);
+    font-size: 12px;
+    font-family: 'Cutive Mono', monospace;
+  }
+
+figcaption {
+    font-size: 8px;
+}

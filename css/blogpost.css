@@ -1,0 +1,238 @@
+.post {
+    line-height: 25px;
+    display: grid;
+    margin: 50px auto;
+    grid-gap: 10px 50px;
+    grid-template-columns: 3fr 10fr 3fr;
+    font-size: 15px;
+}
+
+.post>* {
+    grid-column: 2 / -2;
+  }
+
+.post-title {
+    grid-column: 1 / -1;
+    margin-left: 20px;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Prata', serif;
+    letter-spacing: 2px;
+}
+
+.post-author {
+    grid-column: 1 / span 1;
+    align-items: center;
+    justify-content: top;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-author img {
+    border-radius: 50%;
+    max-width: 150px;
+}
+
+.author {
+    font-size: 20px;
+    font-family: 'Prata', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#5E757A;
+}
+
+.bio {
+    font-size: 15px;
+    color:#5E757A;
+    text-align: justify;
+    padding: 0 50px 50px 50px;
+}
+
+.author-title, .author-company {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Prata', serif;
+    letter-spacing: 2px;
+    color:#5E757A;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.details p {
+    font-size: 10px;
+    background: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    color: #5E757A;
+    font-family: 'Prata', serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.date {
+    align-self: center;
+    font-size: 15px;
+    font-family: 'Prata', serif;
+    letter-spacing: 2px;
+    color:#5E757A;
+}
+
+.social-sharing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.post-content .social-sharing a:hover {
+    text-decoration: none;
+    background: none;
+}
+
+.post-content .social-sharing a:visited {
+    text-decoration: none;
+    background: none;
+}
+
+.post-content .social-sharing-icon {
+    height: 25px;
+    margin: 10px 0 10px 5px;
+}
+
+.post-content {
+    justify-content: center;
+    text-align: justify;
+    padding: 2px 15px;
+    margin-bottom: 15px;
+}
+
+.post-content h1 {
+    font-size: 30px;
+    color:#5E757A;
+}
+
+.post-content h2 {
+    font-size: 24px;
+    color:#5E757A;
+}
+
+.post-content h3 {
+    font-size: 20px;
+    color:#5E757A;
+}
+
+.post-content a {
+    text-decoration: none;
+    color:#5E757A;
+    font-weight: bold;
+}
+
+.post-content a:hover {
+    color: #FFFFFF;
+    background: #5E757A;
+}
+
+.post-content a:visited {
+    color: #5E757A;
+    background: #999999;
+}
+
+.post-content blockquote {
+    text-align: right;
+    font-style: italic;
+    font-size: 12px;
+    margin: 20px 0;
+    padding: 15px;
+    border-right: 2px solid #5E757A;
+    background: #FFFFFF;
+  }
+
+.post-content img {
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.post-content ul {
+    margin-left: 25px;
+}
+
+.post-content ol {
+    margin-left: 0;
+}
+
+.post-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-button {
+    background: #C5CACF;
+    border: 1px solid #C5CACF;
+    margin: 5px;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Prata', serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+@media (max-width: 1024px) {
+    .post {
+        line-height: 25px;
+        display: grid;
+        margin: 10px;
+        grid-gap: 10px 50px;
+        font-size: 15px;
+    }
+
+    .post-author {
+        padding: 0 15px;
+        grid-column: 1 / span 1;
+        align-items: center;
+        justify-content: right;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .post>* {
+        grid-column: 1 / -1;
+      }
+
+    .bio {
+        display: none;
+    }
+    
+    .author-title, .author-company {
+        display: none;
+    }
+
+    .post-title {
+        font-size: 25px;
+    }
+
+    .post-author img {
+        border-radius: 50%;
+        max-width: 75px;
+        margin-left: 15px;
+    }
+    
+    .author {
+        font-size: 15px;
+    }
+    
+    .post-button {
+        padding: 5px;
+        font-size: 12px;
+    }
+    
+}
