@@ -8,12 +8,13 @@ body, ul {
 }
 
 body {
-    background-color: #768C93;
+    background-image: url("../img/background.png");
+    background-repeat: repeat-x;
+    background-color: #FDFDFE;
     font-size: 12px;
     font-family: 'Cutive Mono', monospace;
   }
 
 figcaption {
-    color: #FFFFFF;
     font-size: 10px;
 }

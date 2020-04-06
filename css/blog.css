@@ -1,6 +1,6 @@
 .blog h1 {
     font-size: 25px;
-    color: #FFFFFF;
+    color: #5E757A;
     font-family: 'Prata', serif;
     font-weight: normal;
     letter-spacing: 2px;
@@ -58,7 +58,7 @@
 
 .button {
     background: none;
-    color:#415154;
+    color:#5E757A;
     padding: 10px;
     background: white;
     font-size: 10px;
@@ -71,7 +71,7 @@
     background: none;
     color:#FFFFFF;
     padding: 10px;
-    background: #415154;
+    background: #5E757A;
     font-size: 10px;
     text-transform: uppercase;
     text-decoration: none;
@@ -91,11 +91,11 @@
 }
 
 .card h2 {
-    color: #415154;
+    color: #5E757A;
 }
 
 .card h3 {
-    color: #415154;
+    color: #5E757A;
     font-size: 12px;    
 }
 
