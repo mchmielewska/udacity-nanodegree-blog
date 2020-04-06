@@ -10,10 +10,11 @@ body, ul {
 body {
     background-image: url("../img/background.png");
     background-repeat: repeat-x;
+    background-color: #FDFDFE;
     font-size: 12px;
     font-family: 'Cutive Mono', monospace;
   }
 
 figcaption {
-    font-size: 8px;
+    font-size: 10px;
 }
