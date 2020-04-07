@@ -101,7 +101,9 @@
 
 .post-content .social-sharing-icon {
     height: 25px;
+    width: 25px;
     margin: 10px 0 10px 5px;
+    text-align: right;
 }
 
 .post-content {
